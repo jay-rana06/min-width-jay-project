@@ -1,0 +1,273 @@
+:root {
+    --theme-head: #cc9900;
+    --theme-reg: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+html body {
+    font-family: 'Open Sans';
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+/* header section start */
+
+.navbar {
+    margin: 2rem 0;
+}
+
+.header .logo {
+    font-size: 42px;
+    color: var(--theme-head);
+}
+
+.header ul li a {
+    font-size: 18px;
+}
+
+
+.header ul li {
+    padding: 8px 28px;
+    margin: 8px 12px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.header ul li:hover {
+    background-color: #cc9900;
+    color: var(--theme-reg);
+}
+
+.header ul li:first-child {
+    background-color: #cc9900;
+    color: var(--theme-reg);
+}
+
+.header .toggle {
+    border: 1px solid #cc9900;
+    font-size: 18px;
+    color: #cc9900;
+    padding: 3px;
+    display: none;
+}
+
+/* header section end */
+
+/* main section start */
+.container .intro h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--theme-head);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.container .intro p {
+    font-size: 24px;
+    color: #5f6060;
+    text-align: center;
+    line-height: 2;
+}
+
+.intro-content img {
+    margin-top: 5rem;
+}
+
+.intro-content .card h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--theme-head);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0;
+}
+
+.intro-content .card p {
+    font-size: 18px;
+    line-height: 2;
+    color: #5f6060;
+}
+
+.intro-content .card a{
+    font-size: 18px;
+    padding: .5rem 1.5rem;
+    margin: 1rem 0;
+    background-color: var(--theme-head);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.posuere h3 {
+    color: var(--theme-head);
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.posuere p{
+    margin: 2.5rem 0;
+    font-size: 18px;
+    color: #5f6060;
+    line-height: 2;
+}
+
+.posuere a{
+    line-height: 3;
+    font-size: 17px;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.posuere a:hover{
+    text-decoration: none;
+}
+
+.text p{    
+    font-size: 18px;
+    line-height: 2;
+    color: #5f6060;
+    margin: 2rem 0;
+}
+.text .btn{
+    font-size: 18px;
+    padding: .5rem 1.5rem;
+    margin: 1rem 0;
+    background-color: var(--theme-head);
+    color: #fff;
+    border-radius: 5px;   
+}
+
+.text .post h3{
+    font-size: 26px;
+    color: var(--theme-head);
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.text .post h4{
+    margin-top: 3rem;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--theme-head);
+}
+.text .post p{
+    line-height: normal ;
+    color: #5f6060;
+    font-size: 16px;
+    
+}
+.text .post img{
+    margin-bottom: 5rem;
+}
+
+/* main section end */
+
+/* footer section start */
+.footer{
+    height: 140vh;
+    margin-top: 6rem;
+    background: url('../image/footback.png');
+}
+.foot h3{
+    color: var(--theme-head);
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+.foot .foot-text{
+    background-color: #cccccc;
+}
+.foot .foot-text p{
+    line-height: 2;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.foot .foot-text span{
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.foot a{
+    color: #cccc66;
+    text-decoration: underline;
+    padding: 1rem 0;
+}
+
+.foot .foot-content p{
+    color: #c8d1d1;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    font-size: 16px;
+    line-height: 1.8;
+}
+.foot .foot-btn p{
+    color: #c8d1d1;
+    line-height: 2;
+    margin-top: 2rem;
+}
+.foot .foot-btn a{
+    text-decoration: none;
+    color: #c8d1d1;
+    background-color: #5f6060;
+    padding: .8rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+/* footer section end */
